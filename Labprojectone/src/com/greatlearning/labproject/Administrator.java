@@ -26,16 +26,16 @@ public class Administrator {
 	System.out.println("Hello "+splitname[0]+" Your generated credentials are as follows :");
 	switch(userInput) {
 	case 1:
-		System.out.println("Email  : "+splitname[0]+splitname[1]+".Tech.@gmail.com");
+		System.out.println("Email  : "+splitname[0]+splitname[1]+".Tech.@company.com");
 		break;
 	case 2:
-		System.out.println("Email  : "+splitname[0]+splitname[1]+".Admin.@gmail.com");
+		System.out.println("Email  : "+splitname[0]+splitname[1]+".Admin.@company.com");
 		break;
 	case 3:
-		System.out.println("Email  : "+splitname[0]+splitname[1]+".HR.@gmail.com");
+		System.out.println("Email  : "+splitname[0]+splitname[1]+".HR.@company.com");
 		break;
 	case 4:
-		System.out.println("Email  : "+splitname[0]+splitname[1]+"Legal.@gmail.com");
+		System.out.println("Email  : "+splitname[0]+splitname[1]+"Legal.@company.com");
 		break;
 	default:
 		System.out.println("Invalid Input");
